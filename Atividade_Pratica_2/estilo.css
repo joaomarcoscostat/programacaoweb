@@ -1,0 +1,80 @@
+body{
+    background-image: url(imagens/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 112%;
+    background-attachment: fixed;
+    background-color:transparent;
+    
+    }
+
+
+
+h1{
+    border-width: 50px, 10px;
+    text-align:left;
+    font-family:serif;
+    color:darkgoldenrod;
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: #000;
+    font-size: 4.8em; color:;
+    
+   }   
+
+.subtitulo{
+             font-size: 35px;
+             color:darkgoldenrod;
+             background-color: rgba(208, 210, 211, 0.3);
+    
+            -webkit-text-stroke-width:0.9px;
+            -webkit-text-stroke-color: #000;
+          }
+
+h2{
+    font-size: 20px;
+    color:
+     
+  }
+
+
+.rodape{
+    
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 29px;
+    text-align: center;
+    font-family:serif;
+    color:azure;
+    font-size: 35px;
+    background-image: linear-gradient(yellow,orange, black);
+     
+        }
+    
+
+
+li{
+    color:black;
+    font-size: 28px;
+    padding-bottom: 18px;
+  }
+
+    
+
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+p{
+    text-align: center;
+    width: 750;
+    height:auto;
+    color:black;
+    background-color: rgba(208, 210, 22, 0.3);
+    font-size:35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    
+}
