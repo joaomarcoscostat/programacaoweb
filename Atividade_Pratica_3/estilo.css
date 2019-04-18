@@ -1,5 +1,5 @@
 body{
-    background-image: url(imagens/fundo2.jpg);
+    background-image: url(imagens/fundo5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -10,25 +10,27 @@ body{
 
 
 
-h1{
+.titulo{
     border-width: 50px, 10px;
-    text-align:left;
+    text-align:center;
     font-family:serif;
-    color:darkgoldenrod;
-   -webkit-text-stroke-width: 1.5px;
-   -webkit-text-stroke-color: #000;
-    font-size: 4.8em; color:;
+    color:black;
+    font-size: 3em; color:;
+    
     
    }   
 
-.subtitulo{
-             font-size: 35px;
-             color:darkgoldenrod;
-             
+div.Mensagem{
+    position: absolute;
+    top:200px;
+    width: 99%;
+  
+    font-size: 30px;
+    text-align: center;
     
-            -webkit-text-stroke-width:0.9px;
-            -webkit-text-stroke-color: #000;
-          }
+}
+
+
 
 h2{
     font-size: 20px;
@@ -50,19 +52,12 @@ div.rodape{
     background-image: linear-gradient(yellow,orange, black);
      
         }
-div.Mensagem{
-    position: absolute;
-    top:350px;
-    width: 99%;
-    background-color: rgba(236, 190, 67, 0.7);
-    font-size: 30px;
-    text-align: center;
-    
-}
 
-.botao{
-    <button type="button" onclick="alert('Hello world!')">Cadastrar</button>
-    <button type="button" onclick="alert('Hello world!')">Entrar</button>
+
+div.butom{
+    
+    
+    
 }
 
 
